@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "SYNAPSE-4C: Synthetic Academic Multiplex Network Dataset"
+type: Dataset
+
+authors:
+  - family-names: "M"
+    given-names: "Arunmozhi"
+
+  - family-names: "R"
+    given-names: "Sunitha"
+
+  - family-names: "D"
+    given-names: "Rajalakshmi"
+
+version: "V1.0.0"
+date-released: "2026-05-13"
+doi: "10.5281/zenodo.20154496"
+
