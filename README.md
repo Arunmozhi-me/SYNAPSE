@@ -38,6 +38,12 @@ A **unified multiplex graph** can also be created by combining all layers.
 
 ## Reproducibility
 The dataset is generated using rules and fixed randomness where applicable, enabling reproducible experiments and validation.
+## Execution Order
+python Researchers_Profile.py
+python generate_projects.py
+python Grants.py
+python interaction_generation.py
+python Publications.py
 
 ## Citation
 If you use this dataset or code, please cite the associated repository and DOI once available.
