@@ -287,7 +287,7 @@ def random_date_between(start_dt, end_dt):
 
 def make_status(start_dt, end_dt):
     ey = pd.Timestamp(end_dt).year
-    if ey < DEFAULT_ACTIVE_END_YEAR:
+    if ey < min(DEFAULT_ACTIVE_END_YEAR, evo_max_year):
         return random.choice(["Completed","Completed","Completed","Terminated"])
     if pd.Timestamp(start_dt).year > DEFAULT_ACTIVE_END_YEAR: return "Yet to Start"
     return random.choice(["Ongoing","Ongoing","Completed"])
